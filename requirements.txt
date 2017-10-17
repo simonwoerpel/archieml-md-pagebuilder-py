@@ -1,0 +1,4 @@
+archieml==0.3.2
+Jinja2==2.9.6
+Markdown==2.6.9
+PyYAML==3.12

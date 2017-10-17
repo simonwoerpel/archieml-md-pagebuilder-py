@@ -1,0 +1,38 @@
+p:
+  pre: 'preprocessors.html_tag'
+  template: '{{ tag }}'
+/p: '</p>'
+span:
+  pre: 'preprocessors.html_tag'
+  template: '{{ tag }}'
+/span: '</span>'
+div:
+  pre: 'preprocessors.html_tag'
+  template: '{{ tag }}'
+/div: '</div>'
+section:
+  pre: 'preprocessors.html_tag'
+  template: '{{ tag }}'
+/section: '</section>'
+main:
+  pre: 'preprocessors.html_tag'
+  template: '{{ tag }}'
+/main: '</main>'
+aside:
+  pre: 'preprocessors.html_tag'
+  template: '{{ tag }}'
+/aside: '</aside>'
+header:
+  pre: 'preprocessors.html_tag'
+  template: '{{ tag }}'
+/header: '</header>'
+footer:
+  pre: 'preprocessors.html_tag'
+  template: '{{ tag }}'
+/footer: '</footer>'
+ul: '<ul>{% for i in data %}<li>{{ i }}</li>{% endfor %}</ul>'
+ol: '<ol>{% for i in data %}<li>{{ i }}</li>{% endfor %}</ol>'
+box:
+  pre: 'preprocessors.extract_freeform'
+  template: '<section style="border:1px solid {{ border }}">{{ text }}</section>'
+box2: '<div style="border: 1px solid {{ border }}">{{ content }}</div>'
